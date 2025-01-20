@@ -11,9 +11,19 @@ namespace MyFirstProject
         static void Main(string[] args)
         {
             int age = 23;
+            long bignumber = 900000000L;
+            double negpi = -3.14159265359D;
+            float pi = 3.14159265359F;
+            decimal money = 10.99M;
             Console.WriteLine(age);
+            Console.WriteLine(bignumber);
+            Console.WriteLine(pi);
+            Console.WriteLine(negpi);
+            Console.WriteLine(money);
             Console.WriteLine(int.MinValue);
             Console.WriteLine(int.MaxValue);
+            Console.WriteLine(long.MaxValue);
+
         }
     }
 }
