@@ -24,6 +24,14 @@ namespace MyFirstProject
             Console.WriteLine(int.MaxValue);
             Console.WriteLine(long.MaxValue);
 
+
+            string name = "Kevin";
+            char letter = 'K';
+            Console.WriteLine(name);
+            Console.WriteLine(letter);
+            Console.WriteLine("Your name is: " + name);
+
+
         }
     }
 }
